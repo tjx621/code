@@ -20,6 +20,8 @@ def fib(month):
     return result[-1]
 
 
+
+
 print(fib(1))
 print(fib(2))
 print(fib(3))

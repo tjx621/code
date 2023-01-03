@@ -7,4 +7,7 @@
 for i in range(10):
     for j in range(10):
         if (i != j):
-
+            for k in range(31, 100):
+                if k * k == i * 1000 + i * 100 + j * 10 + j:
+                    print(k*k)
++
